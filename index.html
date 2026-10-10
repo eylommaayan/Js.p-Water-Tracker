@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>מעקב שתיית מים | Water Tracker</title>
+  </head>
+  <body>
+    <h1>מיכל שתייה יומי</h1>
+    <h3>מטרה: 2 ליטר</h3>
+
+    <div class="cup">
+      <div class="remained" id="remained">
+        <span id="liters"></span>
+        <small>נותרו לשתות</small>
+      </div>
+      <div class="percentage" id="percentage"></div>
+    </div>
+
+    <p class="text">סמן כל כוס מים ששתית (250 מ"ל):</p>
+
+    <div class="cups">
+      <div class="cup cup-small">250 מ"ל</div>
+      <div class="cup cup-small">250 מ"ל</div>
+      <div class="cup cup-small">250 מ"ל</div>
+      <div class="cup cup-small">250 מ"ל</div>
+      <div class="cup cup-small">250 מ"ל</div>
+      <div class="cup cup-small">250 מ"ל</div>
+      <div class="cup cup-small">250 מ"ל</div>
+      <div class="cup cup-small">250 מ"ל</div>
+    </div>
+
+    <!-- כפתור איפוס -->
+    <button id="reset-btn" class="reset-btn">🔄 איפוס יום</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
